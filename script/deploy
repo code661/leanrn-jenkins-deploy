@@ -1,7 +1,7 @@
 #!/bin/sh
 pwd
 whoami
-cd /home/lucky.tanduzhi/leanrn-jenkins-deploy
+sudo cd /home/lucky.tanduzhi/leanrn-jenkins-deploy
 pwd
 git pull
 npm install
