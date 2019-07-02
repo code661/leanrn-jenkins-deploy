@@ -1,4 +1,5 @@
 #!/bin/sh
+pwd
  cd /home/lucky.tanduzhi/leanrn-jenkins-deploy
  git pull
  npm install
