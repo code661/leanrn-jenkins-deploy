@@ -1,6 +1,8 @@
 #!/bin/sh
 pwd
+whoami
 cd /home/lucky.tanduzhi/leanrn-jenkins-deploy
+pwd
 git pull
 npm install
 pm2 restart all
