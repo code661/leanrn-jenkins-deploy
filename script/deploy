@@ -1,0 +1,8 @@
+#!/bin/sh
+ssh lucky.tanduzhi@34.92.150.215 <<EOF
+ cd ~/leanrn-jenkins-deploy
+ git pull
+ npm install
+ pm2 restart all
+ exit
+EOF
