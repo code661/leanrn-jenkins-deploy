@@ -1,6 +1,6 @@
 {
   "name": "learn-jenkins-deploy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "## 参考链接",
   "main": "index.js",
   "scripts": {
